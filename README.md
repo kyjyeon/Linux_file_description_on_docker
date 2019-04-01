@@ -3,15 +3,17 @@
 
 <b>At the end of the file explanation, there is a section that users can add the files that they are familar now to remember better!</b><br>
 
-# Run in Docker
-docker-compose up
-# use -d flag to run in background
+## Run in Docker
 
-# Tear down
-docker-compose down
+`docker-compose up`
+## use -d flag to run in background
 
-# To re-build
-docker-compose build
-```
+## Tear down
+
+`docker-compose down`
+
+## To re-build
+
+`docker-compose build`
 
 

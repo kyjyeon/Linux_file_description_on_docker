@@ -2,7 +2,7 @@ version: '3'
 
 services:
   apps:
-    container_name : js_mongo_application
+    container_name : linuxfile_des_application
     restart : always
     build: .
     ports:

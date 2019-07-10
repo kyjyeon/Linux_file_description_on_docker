@@ -30,9 +30,10 @@ app.post('/item/add', (req, res) => {
     name: req.body.name
   });
 
+  //?
   newItem.save().then(item => res.redirect('/'));
 });
 
-port = 3000;
+port = "My Port";
 
 app.listen(port, () => console.log('Server running...'));

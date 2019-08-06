@@ -1,3 +1,4 @@
+//Use mongoose to structure MongoDB
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
